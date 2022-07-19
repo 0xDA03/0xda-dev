@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap');
+
+html {
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: black;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+.app {
+    margin: 0 15vw;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    margin: 50vh 0;
+    z-index: 1;
+    
+}
+
+#name {
+    align-items:center;
+    font-size: 4rem;
+    font-weight:800;
+    margin: 0;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding-top: 2rem;
+}
+
+#nav_button {
+    background-color: transparent;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    border-width: 0rem;
+    margin: 0;
+    padding: 0rem;
+    padding-left: 1rem;
+}
+
+.section {
+    display: block;
+    margin: 4rem 0;
+}
+
+.section_heading {
+    color: grey;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.subsection {
+    margin: 2rem;
+    margin-right: 0;;
+}
+
+.project {
+    margin: 0 0 2rem 0;
+}
+
+.project_name {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0rem;
+}
+
+.project_description {
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0;
+}
+
+.gallery_item > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: flex-end;
+}
+
+.gallery_item > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: flex-end;
+}
+
+.gallery_item > div > div{
+    margin-left: 2rem;
+}
+
+.item_name {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0rem;
+}
+
+.item_description {
+    display: block;
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0;
+}
+
+.media {
+    max-width: 15rem;
+}

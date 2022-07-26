@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap');
 
 html {
@@ -76,11 +74,6 @@ body {
     margin-right: 0;;
 }
 
-.project {
-    margin: 0 0 2rem 0;
-    display: flex;
-}
-
 .item_name {
     color: white;
     font-size: 1.5rem;
@@ -97,15 +90,13 @@ body {
     margin: 0;
 }
 
-#indenter {
-    margin-right: 1rem;
+.project {
+    margin: 0 0 2rem 0;
+    display: flex;
 }
 
-.gallery_item > div {
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    align-items: flex-end;
+#indenter {
+    margin-right: 1rem;
 }
 
 .gallery_item > div {

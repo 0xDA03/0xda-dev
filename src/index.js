@@ -91,8 +91,8 @@ const projects = (
             <div className="subsection">
                 <Fade timeout={1000}>
                     <Project item_name="QuantOS" link="https://quantrinsic.com/" description={"modular investment research platform"}/>
-                    <Project item_name="project-02" description="all-in-one accounting solution"/>
-                    <Project item_name="project-03" description="wordle style lyric guessing game"/>
+                    <Project item_name="project-02" description="trading journal webapp"/>
+                    <Project item_name="project-03" description="all-in-one accounting solution"/>
                 </Fade>
             </div>
         } 

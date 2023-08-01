@@ -2,6 +2,7 @@
 
 html {
     font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
     background-color: black;
     color: white;
 }
@@ -17,26 +18,27 @@ body::-webkit-scrollbar {
     display: none; /* hide scrollbar Chrome, Safari, and Opera */
 }
 
-.app {
-    margin: 0 15vw;
+#app {
+    margin: 0 15vw 35vw 15vw;
 }
 
-.header {
-    background-color: black;
+header {
+    margin: 45vh 0;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: sticky;
     top: 0;
-    margin: 45vh 0;
     z-index: 1; 
+    background-color: black;
 }
 
 #name {
     cursor: pointer;
     display: flex;
     align-items:center;
-    font-size: 4rem;
+    font-size: 64px;
     font-weight:800;
     min-height: 10.1vh;
     margin: 0;
@@ -49,16 +51,15 @@ body::-webkit-scrollbar {
 }
 
 #nav_button {
+    margin: 0;
+    padding: 0;
+    padding-left: 16px;
     cursor: pointer;
     background-color: transparent;
     color: grey;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 1rem;
-    font-weight: 400;
-    border-width: 0rem;
-    margin: 0;
-    padding: 0rem;
-    padding-left: 1rem;
+    font-size: 16px;
+    border-width: 0;
 }
 
 .active {
@@ -66,44 +67,36 @@ body::-webkit-scrollbar {
 }
 
 .section {
-    margin: 0 0 4rem 0;
+    margin: 0 0 64px 0;
 }
 
 .section_heading {
-    color: white;
-    font-size: 2rem;
-    font-weight: 400;
     margin: 0;
+    color: white;
+    font-size: 32px;
 }
 
 .subsection {
-    margin: 2rem;
-    margin-right: 0;;
+    margin: 32px 0 32px 32px;
 }
 
 .item_name {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 400;
     margin: 0;
-    padding: 0rem;
+    padding: 0;
+    color: white;
+    font-size: 24px;
 }
 
 .item_description {
-    color: grey;
-    display: block;
-    font-size: 1rem;
-    font-weight: 400;
     margin: 0;
+    color: grey;
+    font-size: 16px;
 }
 
 .project {
-    margin: 0 0 2rem 0;
+    margin: 0 0 32px 0;
     display: flex;
-}
-
-#indenter {
-    margin-right: 1rem;
+    flex-direction: column;
 }
 
 .gallery_item > div {
@@ -114,21 +107,19 @@ body::-webkit-scrollbar {
 }
 
 .gallery_item > div > div{
-    margin-left: 2rem;
+    margin-left: 32px;
 }
 
 .media {
-    max-width: 10rem;
+    max-width: 160px;
 }
 
 .social {
-    margin: 0 0 2rem 0;
+    margin: 0 0 32px 0;
     display: flex;
 }
 
-#social_icon {
+.social > svg {
+    margin-right: 16px;
     color: grey;
-    margin-right: 1rem;
-    display: flex;
-    align-items: center;
 }

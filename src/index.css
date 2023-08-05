@@ -1,10 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap');
 
+:root {
+    --primary: white;
+    --secondary: black;
+    --secondary-light: grey;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --primary: white;
+        --secondary: black;
+        --secondary-light: grey;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary: black;
+        --secondary: white;
+        --secondary-light: grey;
+    }
+}
+
 html {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 400;
-    background-color: black;
-    color: white;
+    background-color: var(--primary);
+    color: var(--secondary);
 }
 
 body {
@@ -31,7 +53,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1; 
-    background-color: black;
+    background-color: var(--primary);
 }
 
 #name {
@@ -56,14 +78,14 @@ header {
     padding-left: 16px;
     cursor: pointer;
     background-color: transparent;
-    color: grey;
+    color: var(--secondary-light);
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     border-width: 0;
 }
 
 .active {
-    color: white;
+    color: var(--secondary);
 }
 
 .section {
@@ -72,7 +94,7 @@ header {
 
 .section_heading {
     margin: 0;
-    color: white;
+    color: var(--secondary);
     font-size: 32px;
 }
 
@@ -83,13 +105,13 @@ header {
 .item_name {
     margin: 0;
     padding: 0;
-    color: white;
+    color: var(--secondary);
     font-size: 24px;
 }
 
 .item_description {
     margin: 0;
-    color: grey;
+    color: var(--secondary-light);
     font-size: 16px;
 }
 
@@ -121,5 +143,5 @@ header {
 
 .social > svg {
     margin-right: 16px;
-    color: grey;
+    color: var(--secondary-light);
 }

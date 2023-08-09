@@ -4,8 +4,6 @@
     <style>
       .cls-1 {
         fill: #fff;
-        font-family: IBMPlexMono, 'IBM Plex Mono';
-        font-size: 10px;
       }
 
       .cls-2 {
@@ -15,6 +13,9 @@
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
     <rect class="cls-2" width="16" height="16"/>
-    <text class="cls-1" transform="translate(1.68 11.49)"><tspan x="0" y="0">DA</tspan></text>
+    <g>
+      <path class="cls-1" d="M2.62,4.51h1.95c1.7,0,2.54,1.2,2.54,3.49s-.84,3.49-2.54,3.49h-1.95V4.51Zm1.91,6.25c1.11,0,1.69-.82,1.69-2.22v-1.08c0-1.4-.58-2.22-1.69-2.22h-1.07v5.52h1.07Z"/>
+      <path class="cls-1" d="M12.48,11.49l-.59-1.99h-2.45l-.59,1.99h-.87l2.14-6.98h1.11l2.14,6.98h-.89Zm-1.77-6.09h-.09l-.98,3.37h2.05l-.98-3.37Z"/>
+    </g>
   </g>
 </svg>

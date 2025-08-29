@@ -28,6 +28,8 @@ const projects = (
             <div className="subsection">
                 <Project item_name="LVL UP" link="https://lvlup.how" description="for those who seek to better themselves..."/>
                 <Project item_name="project-02" description="all-in-one accounting solution"/>
+                <Project item_name="MUSIM" link="https://musim-461200.uc.r.appspot.com/" description="parameterized motor unit simulator for neuromuscular research"/>
+                <Project item_name="project_04" description="AI-powered inventory helper"/>
             </div>
         } 
     />

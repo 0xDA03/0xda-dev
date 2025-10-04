@@ -2,6 +2,7 @@ import ReactDOM from "react-dom"
 import React from "react"
 import { Link, animateScroll as scroll } from "react-scroll"
 import { VscGithub, VscTwitter } from "react-icons/vsc"
+import { BsTwitterX } from "react-icons/bs";
 import "./index.css"
 import NavButton from "./Components/NavButton"
 import Section from "./Components/Section"
@@ -26,6 +27,7 @@ const projects = (
         section_heading="projects"
         content={
             <div className="subsection">
+                <Project item_name="QuantOS" link="https://quantos.finance/" description="bloomberg terminal reimagined for investment research"/>
                 <Project item_name="LVL UP" link="https://lvlup.how" description="for those who seek to better themselves..."/>
                 <Project item_name="project-02" description="all-in-one accounting solution"/>
                 <Project item_name="MUSIM" link="https://musim-461200.uc.r.appspot.com/" description="parameterized motor unit simulator for neuromuscular research"/>
@@ -52,7 +54,7 @@ const contact = (
         content={
             <div className="subsection">
                 <Social icon={<VscGithub size="2rem"/>} link="https://github.com/0xDA03" item_name="0xDA03"/>
-                <Social icon={<VscTwitter size="2rem"/>} link="https://twitter.com/0xda03" item_name="0xda03"/>
+                <Social icon={<BsTwitterX size="2rem"/>} link="https://twitter.com/0xda03" item_name="0xda03"/>
             </div>
         }
     />

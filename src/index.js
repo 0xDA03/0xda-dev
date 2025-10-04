@@ -29,9 +29,10 @@ const projects = (
             <div className="subsection">
                 <Project item_name="QuantOS" link="https://quantos.finance/" description="bloomberg terminal reimagined for investment research"/>
                 <Project item_name="LVL UP" link="https://lvlup.how" description="for those who seek to better themselves..."/>
-                <Project item_name="project-02" description="all-in-one accounting solution"/>
+                <Project item_name="project-03" description="all-in-one accounting solution"/>
+                <Project item_name="Torchy" link="https://github.com/0xDA03/torchy" description="discord bot with google api integration"/>
                 <Project item_name="MUSIM" link="https://musim-461200.uc.r.appspot.com/" description="parameterized motor unit simulator for neuromuscular research"/>
-                <Project item_name="project_04" description="AI-powered inventory helper"/>
+                <Project item_name="project-06" description="AI-powered inventory helper"/>
             </div>
         } 
     />
@@ -42,7 +43,7 @@ const projects = (
 //         section_heading="gallery"
 //         content={
 //             <div className="subsection">
-//                 <GalleryItem source="https://lh3.googleusercontent.com/Noh38d22G2uDIDBvQw_w94Ht9Adh9nUb_SrZcSJq2lIs0ZYbGuEz5nLji_fOjRzBALWtWEx1ePkmw2SuzBU0iECRScZoLgt1BZll=w600" item_name="kanpai panda" link="https://opensea.io/assets/matic/0xacf63e56fd08970b43401492a02f6f38b6635c91/8105/" description="#8105"/>
+//
 //             </div>
 //         }
 //     />

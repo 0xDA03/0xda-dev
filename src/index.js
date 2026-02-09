@@ -28,7 +28,7 @@ const projects = (
         content={
             <div className="subsection">
                 <Project item_name="QuantOS" link="https://quantos.finance/" description="bloomberg terminal reimagined for investment research"/> 
-                <Project item_name="Neuromembrane" link="https://beta.neuromembrane.ca" description "an interactive neuroscience simulatioon platform"/>
+                <Project item_name="Neuromembrane" link="https://beta.neuromembrane.ca" description="an interactive neuroscience simulatioon platform"/>
                 <Project item_name="LVL UP" link="https://lvlup.how" description="for those who seek to better themselves..."/>
                 <Project item_name="MUSIM" link="https://musim-461200.uc.r.appspot.com/" description="parameterized motor unit simulator for neuromuscular research"/>
                 
